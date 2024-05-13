@@ -1,0 +1,12 @@
+def teste_logico():
+    # Pergunta lógica
+    print("Qual é a capital do Brasil")
+    resposta_correta = "brasília"
+    # Recebe a resposta do usuário em letras minúsculas para facilitar a comparação
+    resposta_usuario = input("Sua resposta: ").lower()
+    # Verifica se a resposta do usuário está correta
+    if resposta_usuario == resposta_correta:
+        print("Parabéns, você acertou!")
+    else:
+        print("Resposta incorreta. Tente novamente.")
+teste_logico()
